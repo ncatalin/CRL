@@ -78,6 +78,9 @@
 }
 
 @media (min-width: 700px) {
+  .header {
+    padding: 0.5rem;
+  }
   .nav-toggle {
     display: none;
   }
