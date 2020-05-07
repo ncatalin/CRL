@@ -7,147 +7,155 @@
     <title>Conquering Responsive Layouts</title>
   </head>
   <body>
-    <header class="header">
-      <div class="nav-toggle"><span class="hamburger"></span></div>
-      <div class="logo">
-        <img src="img/logo.svg" alt="Conquering Responsive Layouts" />
+    <header class="header bg-primary text-center">
+      <div class="container header-container">
+        <button class="nav-toggle"><span class="hamburger"></span></button>
+        <div class="logo">
+          <img src="img/logo.svg" alt="Conquering Responsive Layouts" />
+        </div>
+        <nav class="nav">
+          <ul class="nav-list nav-list-primary">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <ul class="nav-list nav-list-secondary">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link nav-btn">Sign Up</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="nav">
-        <ul class="nav-list nav-list-primary">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-        </ul>
-        <ul class="nav-list nav-list-secondary">
-          <ul class="nav-item">
-            <a href="#" class="nav-link">Sign In</a>
-          </ul>
-          <ul class="nav-item">
-            <a href="#" class="nav-link nav-btn">Sign Up</a>
-          </ul>
-        </ul>
-      </nav>
     </header>
-    <section class="hero">
-      <div class="hero-left">
-        <h1 class="hero-title">
-          Responsive layouts
-          <span class="hero-span">
-            don’t have to be a struggle
-          </span>
-        </h1>
-      </div>
-      <div class="hero-right">
-        <p class="hero-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <button class="hero-btn">
-          <a href="#" class="hero-link">
-            I want to learn
-          </a>
-        </button>
-      </div>
-    </section>
-    <section class="section-one">
-      <div class="col">
-        <h2 class="secondary-title">Mobile-first</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam.
-        </p>
-      </div>
-      <div class="col">
-        <h2 class="secondary-title">Efficient</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam.
-        </p>
-      </div>
-      <div class="col">
-        <h2 class="secondary-title">Done right</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam.
-        </p>
-      </div>
-    </section>
-    <section class="section-two">
-      <main>
-        <h2 class="secondary-title">
-          It doesn’t have to be so hard
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam.
-        </p>
-        <img
-          src="img/main-img.jpg"
-          alt="Responsive layouts"
-          class="section-img"
-        />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam.
-        </p>
-      </main>
-      <aside>
-        <div class="col">
-          <h3 class="aside-title">Break it down</h3>
-          <p>
+    <section class="hero bg-secondary">
+      <div class="container row">
+        <div class="hero-left">
+          <h1 class="hero-title">
+            Responsive layouts
+            <span class="hero-span">
+              don’t have to be a struggle
+            </span>
+          </h1>
+        </div>
+        <div class="hero-right">
+          <p class="hero-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+          <button class="hero-btn">
+            <a href="#" class="hero-link">
+              I want to learn
+            </a>
+          </button>
         </div>
-        <div class="col">
-          <h3 class="aside-title">Work your way up</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        <div class="col">
-          <h3 class="aside-title">Break it down</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </aside>
+      </div>
     </section>
-    <footer class="footer">
-      <h1 class="footer-title">
-        just scratching the surface
-      </h1>
-      <div class="footer-content">
-        <div class="footer-main-content">
-          <h2 class="secondary-text">
-            About our company
-          </h2>
+    <section class="section-one bg-light-grey text-center">
+      <div class="container row">
+        <div class="col">
+          <h2 class="secondary-title">Mobile-first</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam.
           </p>
         </div>
-        <div class="footer-secondary-content">
-          <div class="col">
-            <h2 class="secondary-text">Getting around</h2>
+        <div class="col">
+          <h2 class="secondary-title">Efficient</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="col">
+          <h2 class="secondary-title">Done right</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-two">
+      <div class="container row">
+        <main>
+          <h2 class="secondary-title">
+            It doesn’t have to be so hard
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.
+          </p>
+          <img
+            src="img/main-img.jpg"
+            alt="Responsive layouts"
+            class="section-img"
+          />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.
+          </p>
+        </main>
+        <aside>
+          <div class="col bg-secondary text-center">
+            <h3 class="aside-title">Break it down</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col bg-secondary text-center">
+            <h3 class="aside-title">Work your way up</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col bg-secondary text-center">
+            <h3 class="aside-title">Break it down</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <footer class="footer bg-secondary">
+      <div class="container">
+        <h1 class="footer-title text-center">
+          just scratching the surface
+        </h1>
+        <div class="footer-content row">
+          <div class="footer-main-col">
+            <h2 class="secondary-title">
+              About our company
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="footer-secondary-col">
+            <h2 class="secondary-title">Getting around</h2>
             <ul class="footer-list">
               <li class="footer-item">
                 <a href="#" class="footer-link">Home</a>
@@ -160,8 +168,8 @@
               </li>
             </ul>
           </div>
-          <div class="col">
-            <h2 class="secondary-text">Other things</h2>
+          <div class="footer-secondary-col">
+            <h2 class="secondary-title">Other things</h2>
             <ul class="footer-list">
               <li class="footer-item">
                 <a href="#" class="footer-link">Lorem ipsum </a>
@@ -173,12 +181,12 @@
                 <a href="#" class="footer-link">sit amet </a>
               </li>
               <li class="footer-item">
-                <a href="#" class="footer-link"></a>consectetur
+                <a href="#" class="footer-link">consectetur</a>
               </li>
             </ul>
           </div>
-          <div class="col">
-            <h2 class="secondary-text">And more</h2>
+          <div class="footer-secondary-col">
+            <h2 class="secondary-title">And more</h2>
             <ul class="footer-list">
               <li class="footer-item">
                 <a href="#" class="footer-link">Lorem ipsum </a>

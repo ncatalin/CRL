@@ -1,0 +1,70 @@
+@media (min-width: 1000px) {
+  .hero {
+    &-title {
+      font-size: 5rem;
+    }
+
+    &-text {
+      font-size: 1.5rem;
+    }
+
+    &-btn {
+      padding: 0.5rem 3.2rem;
+    }
+
+    &-link {
+      font-size: 1.5rem;
+    }
+
+    &-left {
+      width: 42%;
+    }
+
+    &-right {
+      width: 48%;
+      align-self: center;
+      margin-top: 4rem;
+    }
+  }
+
+  .section-one {
+    padding: 5rem 0;
+
+    .col + .col {
+      margin-left: 7rem;
+    }
+  }
+
+  .section-two {
+    padding: 7rem 0;
+    h2 {
+      margin-block-start: 0;
+    }
+    main {
+      width: 59%;
+    }
+
+    aside {
+      flex-direction: column;
+      width: 34%;
+
+      .col + .col {
+        margin-left: 0;
+      }
+
+      .col {
+        padding: 0.5rem 2rem;
+      }
+    }
+  }
+
+  .footer {
+    .footer-main-col {
+      width: 37%;
+    }
+
+    .footer-secondary-col {
+      width: 12%;
+    }
+  }
+}

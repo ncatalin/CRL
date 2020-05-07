@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Fonts
+$font-primary: "Montserrat", sans-serif;
+$font-secondary: "Oswald", sans-serif;
+
+// Colors
+$clr-primary: #2e323f;
+$clr-secondary: #3b4050;
+$clr-grey: #6f737f;
+$clr-light-grey: #e3e3e3;
+$clr-light: #fff;
+$clr-brown: #a59678;
+
+// General
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-primary;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+
+  // Fix for menu button
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.col {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+// Mixins
+@mixin set-background($color) {
+  background-color: $color;
+}
